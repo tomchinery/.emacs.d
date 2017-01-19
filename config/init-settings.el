@@ -22,8 +22,8 @@
 (setq-default ruby-indent-level 2)
 (setq-default js-indent-level 2)
 
-(load-theme 'ample t t)
-(enable-theme 'ample)
+(load-theme 'occidental t)
+(enable-theme 'occidental)
 
 (setq-default show-trailing-whitespace t)
 ;;; @TODO: (add-hook 'after-save-hook 'delete-trailing-whitespace)

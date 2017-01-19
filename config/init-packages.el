@@ -4,7 +4,7 @@
 ;;; On startup, initialize packages and repositories. Check for all of the
 ;;; packages listed and if they don't exist, install them.
 
-(setq package-list '(tabulated-list ample-theme
+(setq package-list '(tabulated-list occidental-theme
                                     flycheck
                                     helm
                                     helm-projectile
