@@ -25,6 +25,11 @@
 (load-theme 'occidental t)
 (enable-theme 'occidental)
 
+(add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
+
+(global-flycheck-mode)
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+
 (setq-default show-trailing-whitespace t)
 ;;; @TODO: (add-hook 'after-save-hook 'delete-trailing-whitespace)
 
