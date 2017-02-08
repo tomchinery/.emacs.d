@@ -13,6 +13,7 @@
 (require 'init-packages)
 (require 'init-settings)
 (require 'init-helm)
+(require 'init-php-mode)
 
 (provide 'init)
 
