@@ -1,8 +1,10 @@
 ;;; init-packages.el --- initialize packages and repositories
 
 ;;; Commentary:
-;;; On startup, initialize packages and repositories. Check for all of the
+;;; On startup, initialize packages and repositories.  Check for all of the
 ;;; packages listed and if they don't exist, install them.
+
+;;; Code:
 
 (setq package-list '(tabulated-list occidental-theme
                                     flycheck
@@ -22,7 +24,7 @@
 (setq package-archives '(("marmalade" . "http://marmalade-repo.org/packages/")
                          ("elpa" . "http://tromey.com/elpa")
                          ("gnu" . "http://elpa.gnu.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")
+                         ("melpa" . "http://melpa.org/packages/")
                          ))
 
 (package-initialize)
@@ -36,4 +38,4 @@
 
 (provide 'init-packages)
 
-;;; init-packages.el ends here 
+;;; init-packages.el ends here

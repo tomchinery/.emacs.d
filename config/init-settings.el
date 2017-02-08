@@ -3,6 +3,8 @@
 ;;; Commentary:
 ;;; Settings and initializations
 
+;;; Code:
+
 (set-fringe-mode nil)
 
 (menu-bar-mode -1)
@@ -24,6 +26,9 @@
 
 (load-theme 'occidental t)
 (enable-theme 'occidental)
+
+;;; (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
+;;; (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
 
