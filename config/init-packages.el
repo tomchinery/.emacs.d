@@ -14,9 +14,11 @@
                                     json-mode
                                     haml-mode
                                     projectile
+                                    monokai-theme
                                     smart-mode-line
                                     scss-mode
                                     web-mode
+                                    tide
                                     yaml-mode
                                     yasnippet
                                     ))

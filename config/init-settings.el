@@ -24,8 +24,8 @@
 (setq-default ruby-indent-level 2)
 (setq-default js-indent-level 2)
 
-(load-theme 'occidental t)
-(enable-theme 'occidental)
+(load-theme 'monokai t)
+;;; (enable-theme 'occidental)
 
 ;;; (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
 ;;; (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
